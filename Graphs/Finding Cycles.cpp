@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+#define int long long
 #define fr(i, a, b) for (int i = a; i < b; i++)
 #define pb push_back
 #define vi vector<int>
@@ -21,7 +21,6 @@ struct Edge {
 
 int n, m;
 vector<Edge> edges;
-const int INF = 1000000000;
 
 void solve() {
     cin>>n>>m;
